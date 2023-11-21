@@ -1,12 +1,12 @@
 // import logo from './logo.svg';
 import React from 'react';
 import './App.css';
-import BulletinBoard from './BulletinBoard';
+import BetsBoard from './BetsBoard';
 
 function App() {
   return (
     <div className="App">
-      <BulletinBoard />
+      <BetsBoard />
     </div>
   );
 }
