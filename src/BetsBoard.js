@@ -34,7 +34,6 @@ const BetsBoard = () => {
         <TableCell>{item.name}</TableCell>
         <TableCell>{item.type}</TableCell>
         <TableCell>{item.oran}</TableCell>
-        {/* Add more table cells as needed */}
       </TableRow>
     ));
   };
@@ -76,7 +75,6 @@ const BetsBoard = () => {
     storedTotal.total = total;
     localStorage.setItem('storedTotal', JSON.stringify(storedTotal));
     setTotal(storedTotal);
-    // Renk değişikliklerini eşzamanlı olarak yap
   };
 
   const cellStyle = {
